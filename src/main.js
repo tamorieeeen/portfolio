@@ -13,7 +13,8 @@ import { configure } from 'vue-gtag'
 library.add(fas, fab)
 if (process.env.NODE_ENV === 'production') {
   configure({
-    tagId: 'G-5VLNRRFKQ0'
+    tagId: 'G-5VLNRRFKQ0',
+    pageTracker: {router}
   })
 }
 
