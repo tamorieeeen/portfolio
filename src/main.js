@@ -11,12 +11,10 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { configure } from 'vue-gtag'
 
 library.add(fas, fab)
-if (process.env.NODE_ENV === 'production') {
-  configure({
-    tagId: 'G-5VLNRRFKQ0',
-    pageTracker: {router}
-  })
-}
+configure({
+  tagId: 'G-5VLNRRFKQ0',
+  pageTracker: {router}
+})
 
 const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon)
