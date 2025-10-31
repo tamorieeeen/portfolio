@@ -10,12 +10,12 @@ import { configure } from 'vue-gtag'
 import { faClockRotateLeft, faHeadSideCough, faAward,
   faKeyboard, faDisplay, faNetworkWired, faRobot, faCode,
   faUserLock, faChartLine, faBan, faPenNib, faLink, faHeadset,
-  faBullhorn, faPencil, faComments } from '@fortawesome/free-solid-svg-icons'
+  faBullhorn, faPencil, faComments, faStar, faForward } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faClockRotateLeft, faHeadSideCough, faAward,
   faKeyboard, faDisplay, faNetworkWired, faRobot, faCode,
   faUserLock, faChartLine, faBan, faPenNib, faLink, faHeadset,
-  faBullhorn, faPencil, faComments)
+  faBullhorn, faPencil, faComments, faStar, faForward)
 configure({
   tagId: 'G-5VLNRRFKQ0',
   pageTracker: {router}
