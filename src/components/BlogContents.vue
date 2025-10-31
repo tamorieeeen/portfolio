@@ -4,7 +4,7 @@ import BlogCard from './parts/BlogCard.vue';
 </script>
 
 <template>
-  <PageItem iconGroup="fas" iconCode="pencil">
+  <PageItem iconCode="pencil">
     <template #heading>Blog</template>
     <template #explanation>管理しているブログ一覧です。</template>
     <div class="flex-wrapper">

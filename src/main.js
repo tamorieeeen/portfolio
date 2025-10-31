@@ -6,10 +6,16 @@ import router from './router'
 /* import the fontawesome */
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { fas } from '@fortawesome/free-solid-svg-icons'
 import { configure } from 'vue-gtag'
+import { faClockRotateLeft, faHeadSideCough, faAward,
+  faKeyboard, faDisplay, faNetworkWired, faRobot, faCode,
+  faUserLock, faChartLine, faBan, faPenNib, faLink, faHeadset,
+  faBullhorn, faPencil, faComments } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fas)
+library.add(faClockRotateLeft, faHeadSideCough, faAward,
+  faKeyboard, faDisplay, faNetworkWired, faRobot, faCode,
+  faUserLock, faChartLine, faBan, faPenNib, faLink, faHeadset,
+  faBullhorn, faPencil, faComments)
 configure({
   tagId: 'G-5VLNRRFKQ0',
   pageTracker: {router}

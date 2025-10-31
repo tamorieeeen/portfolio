@@ -4,7 +4,7 @@ import SnsCard from './parts/SnsCard.vue';
 </script>
 
 <template>
-  <PageItem iconGroup="fas" iconCode="code">
+  <PageItem iconCode="code">
     <template #heading>Output</template>
     <template #explanation>できるだけアウトプットするように心掛けています。ちなみにこのサイトのコードはGitHubで公開しているので気になる方はどうぞ。</template>
     <div class="flex-wrapper">

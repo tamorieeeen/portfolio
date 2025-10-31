@@ -4,7 +4,7 @@ import SkillCard from '@/components/parts/SkillCard.vue';
 </script>
 
 <template>
-  <PageItem iconGroup="fas" iconCode="keyboard">
+  <PageItem iconCode="keyboard">
     <template #heading>Back-end</template>
     <template #explanation>元々サーバーサイドエンジニアなので1番得意な分野ではありますが、ほぼJava専門店です(笑)</template>
     <div class="flex-wrapper">
@@ -26,7 +26,7 @@ import SkillCard from '@/components/parts/SkillCard.vue';
       </SkillCard>
     </div>
   </PageItem>
-  <PageItem iconGroup="fas" iconCode="display">
+  <PageItem iconCode="display">
     <template #heading>Front-end</template>
     <template #explanation>デザインは専門外ですが、フロントエンジニアとしてやっていける程度にはできると思います。</template>
     <div class="flex-wrapper">
@@ -48,7 +48,7 @@ import SkillCard from '@/components/parts/SkillCard.vue';
       </SkillCard>
     </div>
   </PageItem>
-  <PageItem iconGroup="fas" iconCode="network-wired">
+  <PageItem iconCode="network-wired">
     <template #heading>Infra</template>
     <template #explanation>インフラは元々苦手意識がありましたが、フリーランスになってからすべて自分でやっているのでだいぶ身に付きました。</template>
     <div class="flex-wrapper">
@@ -70,7 +70,7 @@ import SkillCard from '@/components/parts/SkillCard.vue';
       </SkillCard>
     </div>
   </PageItem>
-  <PageItem iconGroup="fas" iconCode="robot">
+  <PageItem iconCode="robot">
     <template #heading>DevOps / Tool</template>
     <template #explanation>直近で使っているツール等です。</template>
     <div class="flex-wrapper">
