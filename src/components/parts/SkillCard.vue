@@ -2,11 +2,7 @@
 import { computed } from 'vue';
 
 const props = defineProps({
-  iconGroup: {
-    type: String,
-    required: true
-  },
-  iconCode: {
+  iconName: {
     type: String,
     required: true
   },
@@ -22,12 +18,13 @@ const starList = computed(() => {
   }
   return stars;
 });
+const imgUrl = new URL(`../../assets/icon/${props.iconName}.svg`, import.meta.url).href;
 </script>
 
 <template>
   <div class="card-box">
     <div class="box-left">
-      <font-awesome-icon :icon="[iconGroup, iconCode]" />
+      <img :alt="iconName" :src="imgUrl" width="48" />
     </div>
     <div class="box-right">
       <div class="skill-name"><slot name="skill"></slot></div>

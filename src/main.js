@@ -7,10 +7,9 @@ import router from './router'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
 import { configure } from 'vue-gtag'
 
-library.add(fas, fab)
+library.add(fas)
 configure({
   tagId: 'G-5VLNRRFKQ0',
   pageTracker: {router}

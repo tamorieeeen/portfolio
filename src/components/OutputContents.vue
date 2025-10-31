@@ -10,13 +10,13 @@ import SnsCard from './parts/SnsCard.vue';
     <div class="flex-wrapper">
       <SnsCard url="https://github.com/tamorieeeen" colorCode="github">
         <template #icon>
-          <font-awesome-icon :icon="['fab', 'github']" />
+          <img alt="github icon" src="@/assets/icon/github.svg" width="30" />
         </template>
         GitHub
       </SnsCard>
       <SnsCard url="https://qiita.com/tamorieeeen" colorCode="qiita">
         <template #icon>
-          <img alt="qiita icon" src="@/assets/qiita-icon.png" width="30" />
+          <img alt="qiita icon" src="@/assets/icon/qiita.svg" width="30" />
         </template>
         Qiita
       </SnsCard>
