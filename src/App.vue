@@ -21,7 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="footer-link">
       <RouterLink to="/policy">プライバシーポリシー</RouterLink>
     </div>
-    &copy; 2025 tamorieeeen
+    &copy; 2025 tamorieeeen. Brand icons by <a href="https://icons8.jp/" target="_blank" rel="noopener">Icons8</a> and <a href="https://simpleicons.org/" target="_blank" rel="noopener">Simple Icons</a>.
   </footer>
 </template>
 

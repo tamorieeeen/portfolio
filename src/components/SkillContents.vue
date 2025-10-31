@@ -92,7 +92,6 @@ import SkillCard from '@/components/parts/SkillCard.vue';
       </SkillCard>
     </div>
   </PageItem>
-  <div class="license">Brand icons by <a href="https://icons8.jp/" target="_blank" rel="noopener">Icons8</a> and <a href="https://simpleicons.org/" target="_blank" rel="noopener">Simple Icons</a>.</div>
 </template>
 
 <style scoped>
