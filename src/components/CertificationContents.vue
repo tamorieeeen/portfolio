@@ -3,7 +3,7 @@ import PageItem from './parts/PageItem.vue';
 </script>
 
 <template>
-  <PageItem iconGroup="fas" iconCode="award">
+  <PageItem iconCode="award">
     <template #heading>Certification</template>
     <template #explanation>取得した資格一覧です。</template>
     <div class="box">

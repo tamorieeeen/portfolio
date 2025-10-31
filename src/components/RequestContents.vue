@@ -2,7 +2,7 @@
 import PageItem from './parts/PageItem.vue';
 </script>
 <template>
-  <PageItem iconGroup="fas" iconCode="bullhorn">
+  <PageItem iconCode="bullhorn">
     <template #heading>Request</template>
     <template #explanation>お仕事のご相談は下部のSNSよりご連絡いただけますと幸いです。</template>
     <ul>

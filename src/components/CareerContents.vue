@@ -4,7 +4,7 @@ import CareerCard from './parts/CareerCard.vue';
 </script>
 
 <template>
-  <PageItem iconGroup="fas" iconCode="clock-rotate-left">
+  <PageItem iconCode="clock-rotate-left">
     <template #heading>Career</template>
     <template #explanation>簡単な経歴です。</template>
     <CareerCard>

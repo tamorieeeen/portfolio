@@ -1,9 +1,5 @@
 <script setup>
 defineProps({
-  iconGroup: {
-    type: String,
-    required: true,
-  },
   iconCode: {
     type: String,
     required: true,
@@ -14,7 +10,7 @@ defineProps({
 <template>
   <div class="item">
     <h3>
-      <span class="icon"><font-awesome-icon :icon="[iconGroup, iconCode]" /></span>
+      <span class="icon"><font-awesome-icon :icon="['fas', iconCode]" /></span>
       <slot name="heading"></slot>
     </h3>
     <div class="item-contents">
