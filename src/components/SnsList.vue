@@ -3,7 +3,7 @@ import SnsCard from './parts/SnsCard.vue';
 </script>
 
 <template>
-  <div class="flex-wrapper">
+  <div class="grid-wrapper">
     <SnsCard url="https://x.com/tamorieeeen" colorCode="x-twitter">
       X (Twitter)
     </SnsCard>
@@ -17,9 +17,14 @@ import SnsCard from './parts/SnsCard.vue';
 </template>
 
 <style scoped>
-.flex-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  grid-gap: 15px;
+}
+@media (min-width: 768px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 170px));
+  }
 }
 </style>

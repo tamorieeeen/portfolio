@@ -7,7 +7,7 @@ import SnsCard from './parts/SnsCard.vue';
   <PageItem iconCode="code">
     <template #heading>Output</template>
     <template #explanation>できるだけアウトプットするように心掛けています。ちなみにこのサイトのコードはGitHubで公開しているので気になる方はどうぞ。</template>
-    <div class="flex-wrapper">
+    <div class="grid-wrapper">
       <SnsCard url="https://github.com/tamorieeeen" colorCode="github">
         GitHub
       </SnsCard>
@@ -19,9 +19,14 @@ import SnsCard from './parts/SnsCard.vue';
 </template>
 
 <style scoped>
-.flex-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  grid-gap: 15px;
+}
+@media (min-width: 768px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 170px));
+  }
 }
 </style>

@@ -66,8 +66,7 @@ const imgUrl = new URL(`../../assets/icon/${props.colorCode}.svg`, import.meta.u
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  width: 150px;
+  gap: 0.3rem;
   height: 50px;
 }
 .card-box img:not(.x-twitter) {
@@ -84,11 +83,6 @@ const imgUrl = new URL(`../../assets/icon/${props.colorCode}.svg`, import.meta.u
 @media (hover: hover) {
   .card-box > a:hover {
     background-color: v-bind('color.rgb');
-  }
-}
-@media (min-width: 768px) {
-  .card-box > a {
-    width: 170px;
   }
 }
 </style>
