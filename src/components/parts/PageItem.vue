@@ -37,7 +37,7 @@ h3 {
   color: var(--color-heading);
 }
 .item-contents {
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 .explanation {
   margin: 1rem 0;
