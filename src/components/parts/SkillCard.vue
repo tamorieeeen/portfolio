@@ -39,7 +39,7 @@ const imgUrl = new URL(`../../assets/icon/${props.iconName}.svg`, import.meta.ur
 <style scoped>
 .card-box {
   width: 100%;
-  background-color: var(--color-main-triadic-pale);
+  background-color: var(--color-card-background);
   border-radius: 10px;
   padding: 0.5rem 1rem;
   display: grid;
@@ -67,10 +67,10 @@ const imgUrl = new URL(`../../assets/icon/${props.iconName}.svg`, import.meta.ur
   font-size: 16px;
 }
 .rate-star > .gray {
-  color: #D1CBC3;
+  color: var(--color-star-gray);
 }
 .rate-star > .yellow {
-  color: #B99B00;
+  color: var(--color-star-yellow);
 }
 .detail {
   overflow-wrap: anywhere;

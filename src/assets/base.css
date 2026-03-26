@@ -1,64 +1,69 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
-  --vt-c-white-mute: #f2f2f2;
+  --vt-c-black: #222222;
 
-  --vt-c-black: #181818;
-  --vt-c-black-soft: #222222;
-  --vt-c-black-mute: #282828;
+  --vt-c-divider-light: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark: rgba(84, 84, 84, 0.48);
 
-  --vt-c-indigo: #2c3e50;
-
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
-  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
-  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
-
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  --vt-c-text-light: rgba(44, 62, 80, 0.90);
+  --vt-c-text-dark: rgba(235, 235, 235, 0.68);
 }
 
 /* semantic color variables for this project */
 :root {
+  --color-main-theme: #5B8677;
+  --color-background-hover: rgba(91, 134, 119, 0.2);
+
   --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
+  --color-border: var(--vt-c-divider-light);
+  --color-heading: #2C3E50;
+  --color-underline: #86775B;
+  --color-text: var(--vt-c-text-light);
+  --color-card-background: #E8E5DE;
+  --color-card-background-hover: rgba(134, 119, 91, 0.2);
 
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
+  --color-star-yellow: #B99B00;
+  --color-star-gray: #D1CBC3;
+  --color-subscript: #45685C;
 
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
+  --color-x-twitter: #0F1419;
+  --color-x-twitter-background: rgb(15, 20, 25, 0.1);
+  --color-bluesky: #0085FF;
+  --color-bluesky-background: rgb(0, 133, 255, 0.1);
+  --color-instagram: #CF2E92;
+  --color-instagram-background: rgb(207, 46, 146, 0.1);
+  --color-github: #0E0C0D;
+  --color-github-background: rgb(14, 12, 13 ,0.1);
+  --color-github-filter: invert(1%) sepia(6%) saturate(2261%) hue-rotate(278deg) brightness(97%) contrast(92%);
+  --color-qiita: #55C500;
+  --color-qiita-background: rgb(85, 197, 0 ,0.1);
 
   --section-gap: 160px;
-
-  --color-main-theme: #5B8677;
-  --color-main-background: rgba(91, 134, 119, 0.2);
-  --color-main-triadic: #86775B;
-  --color-main-triadic-background: rgba(134, 119, 91, 0.2);
-  --color-main-triadic-pale: #E8E5DE;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
+    --color-border: var(--vt-c-divider-dark);
+    --color-heading: #C4C4C4;
+    --color-underline: #6E6E6E;
+    --color-text: var(--vt-c-text-dark);
+    --color-card-background: #474747;
+    --color-card-background-hover: rgba(110, 110, 110, 0.3);
 
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
+    --color-star-gray: #8D7F6D;
+    --color-subscript: #649684;
 
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --color-x-twitter: #B3B3B3;
+    --color-x-twitter-background: rgb(179, 179, 179, 0.1);
+    --color-github: var(--color-x-twitter);
+    --color-github-background: var(--color-x-twitter-background);
+    --color-github-filter: invert(71%) sepia(19%) saturate(12%) hue-rotate(14deg) brightness(99%) contrast(90%);
   }
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;

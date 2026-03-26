@@ -29,7 +29,7 @@ h3 {
   font-weight: 500;
   margin-bottom: 0.4rem;
   color: var(--color-heading);
-  border-bottom: solid 3px var(--color-main-triadic);
+  border-bottom: solid 3px var(--color-underline);
   padding: 0.4rem;
 }
 .icon {

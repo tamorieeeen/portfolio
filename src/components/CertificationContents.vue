@@ -27,7 +27,7 @@ import PageItem from './parts/PageItem.vue';
 }
 .year {
   font-size: 0.8rem;
-  color: #45685C;
+  color: var(--color-subscript);
   margin-top: 0.1rem;
 }
 </style>

@@ -17,6 +17,6 @@ import OutputContents from '@/components/OutputContents.vue';
 
 <style scoped>
 .star {
-  color: #b99b00;
+  color: var(--color-star-yellow);
 }
 </style>

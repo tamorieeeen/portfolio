@@ -9,7 +9,7 @@
 <style scoped>
 .card-box {
   margin-top: 1rem;
-  background-color: var(--color-main-triadic-pale);
+  background-color: var(--color-card-background);
   border-radius: 10px;
   padding: 0.8rem 1rem;
 }
@@ -18,7 +18,7 @@
 }
 .year {
   font-size: 0.8rem;
-  color: #45685C;
+  color: var(--color-subscript);
   margin-top: 0.1rem;
 }
 .detail {

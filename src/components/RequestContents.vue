@@ -24,7 +24,7 @@ ul li {
   padding: 0.2rem 0;
 }
 .icon {
-  color: var(--color-main-theme);
+  color: var(--color-heading);
   margin-right: 0.5rem;
 }
 .explain {

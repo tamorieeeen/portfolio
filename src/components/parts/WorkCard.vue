@@ -45,7 +45,7 @@ a {
 .card-box {
   width: 100%;
   text-align: center;
-  background-color: var(--color-main-triadic-pale);
+  background-color: var(--color-card-background);
   border-radius: 10px;
 }
 .image {
@@ -78,8 +78,8 @@ a {
 }
 @media (hover: hover) {
   a:hover {
-    background-color: var(--color-main-triadic-background);
-    box-shadow: 2px 2px 4px var(--vt-c-divider-light-2);
+    background-color: var(--color-card-background-hover);
+    box-shadow: 2px 2px 4px var(--color-border);
   }
 }
 </style>

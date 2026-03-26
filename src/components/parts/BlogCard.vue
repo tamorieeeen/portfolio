@@ -32,7 +32,7 @@ a {
   display: block;
   padding: 1rem 0.5rem;
   border-radius: 10px;
-  color: var(--color-heading);
+  color: var(--color-text);
 }
 img {
   object-fit: contain;
@@ -41,7 +41,7 @@ img {
 .card-box {
   width: 100%;
   text-align: center;
-  background-color: var(--color-main-triadic-pale);
+  background-color: var(--color-card-background);
   border-radius: 10px;
 }
 .image {
@@ -62,7 +62,7 @@ img {
 }
 @media (hover: hover) {
   a:hover {
-    background-color: var(--color-main-triadic-background);
+    background-color: var(--color-card-background-hover);
   }
 }
 </style>
