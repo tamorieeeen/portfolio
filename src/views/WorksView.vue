@@ -6,8 +6,7 @@ import WorkCard from '@/components/parts/WorkCard.vue';
   <main>
     <PageTitle>制作実績</PageTitle>
     <div class="introduction">
-      <p>公開が可能なものをご紹介します。</p>
-      <p>※非公開なシステム開発が大半となっております。掲載許可をくださったクライアントのみなさま、ありがとうございます。</p>
+      <p>公開が可能なものをご紹介します。※非公開なシステム開発が大半となっております</p>
     </div>
     <div class="flex-wrapper">
       <WorkCard url="https://tamorieeeen.github.io/portfolio/" pcImgFile="tamorieeeen_portfolio_pc_1200x783_thin.png" spImgFile="tamorieeeen_portfolio_sp_400x788_thin.png">

@@ -7,6 +7,10 @@ import PageItem from './parts/PageItem.vue';
     <template #heading>Certification</template>
     <template #explanation>取得した資格一覧です。</template>
     <div class="box">
+      <div>日本商工会議所 簿記検定試験 3級</div>
+      <div class="year">2026年10月 合格</div>
+    </div>
+    <div class="box">
       <div>IPA 応用情報技術者試験</div>
       <div class="year">2021年12月 合格</div>
     </div>
