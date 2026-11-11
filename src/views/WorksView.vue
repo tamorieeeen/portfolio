@@ -14,6 +14,11 @@ import WorkCard from '@/components/parts/WorkCard.vue';
         <template #description>自分のポートフォリオサイトです。</template>
         <template #techStack>Vue.js/CSS/GitHub Pages</template>
       </WorkCard>
+      <WorkCard url="https://book.tamorieeeen.com/" pcImgFile="tamorieeeen_book_pc_1200x783.png" spImgFile="tamorieeeen_book_sp_400x788.png">
+        <template #title>もりんちゅの本棚</template>
+        <template #description>私が読んだ本を公開するサイトです。</template>
+        <template #techStack>Java/Spring Boot/Vue.js/CSS/Docker</template>
+      </WorkCard>
     </div>
   </main>
 </template>

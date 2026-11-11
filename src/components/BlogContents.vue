@@ -5,8 +5,8 @@ import BlogCard from './parts/BlogCard.vue';
 
 <template>
   <PageItem iconCode="pencil">
-    <template #heading>Blog</template>
-    <template #explanation>管理しているブログ一覧です。</template>
+    <template #heading>Blog / Site</template>
+    <template #explanation>管理しているブログやサイト一覧です。</template>
     <div class="flex-wrapper">
       <BlogCard url="https://snow.tamorieeeen.com/" imgName="blog_snow_ogp_1200x675_thin.png">
         <template #title>スノボときどき車中泊</template>
@@ -19,6 +19,10 @@ import BlogCard from './parts/BlogCard.vue';
       <BlogCard url="https://tamorieeeen.hatenablog.jp/archive" imgName="blog_hatena_header_330x175_thin.png">
         <template #title>ママは毎日お疲れモード</template>
         <template #subtitle>発達凸凹ガール育児で疲弊するママのぼやき</template>
+      </BlogCard>
+      <BlogCard url="https://book.tamorieeeen.com/" imgName="book_ogp_1200x630_th.png">
+        <template #title>もりんちゅの本棚</template>
+        <template #subtitle>読んだ本を紹介する読書記録サイト</template>
       </BlogCard>
     </div>
   </PageItem>
