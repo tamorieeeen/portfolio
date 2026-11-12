@@ -12,6 +12,7 @@
 
 /* semantic color variables for this project */
 :root {
+  color-scheme: light dark;
   --color-main-theme: #5B8677;
   --color-background-hover: rgba(91, 134, 119, 0.2);
 
